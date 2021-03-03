@@ -1,3 +1,14 @@
 #navegacion{
     height: 80px;
 }
+
+a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover{
+    color:tomato;
+}
