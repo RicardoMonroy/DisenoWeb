@@ -12,3 +12,43 @@ a{
 a:hover{
     color:tomato;
 }
+
+.titulo{
+    font-size: 2.5em;
+    font-weight: 1000;
+}
+
+#nosotros{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card{
+    width: 100%;
+    height: 380px;
+}
+
+.card-left{
+    color: #00AFD7;
+}
+
+.card-right{
+    color: #ffffff;
+}
+
+.parrafo{
+    padding-top: 12px;
+}
+
+.boton1{
+    background-color: #C4D600;
+    width: 200px;
+    border: none;
+}
+
+.boton2{
+    background-color: #00AFD7;
+    width: 250px;
+    border: solid white;
+}
