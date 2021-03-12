@@ -52,3 +52,9 @@ a:hover{
     width: 250px;
     border: solid white;
 }
+
+#busqueda {
+    display: inline;
+    padding: 12px;
+    text-align: center;
+}

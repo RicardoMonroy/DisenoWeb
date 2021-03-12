@@ -1,0 +1,16 @@
+body{
+    background-color: chartreuse;
+}
+
+h3{
+    color: darkblue;
+    font-size: 3em;
+}
+
+.rojo{
+    color: red;
+}
+
+.grande{
+    font-size: 5em;
+}
