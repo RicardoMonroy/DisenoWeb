@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&display=swap');
+
+.delta{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+
+.dancing{
+    font-family: 'Dancing Script', cursive;
+}
+
+.t-2x{
+    font-size: 2em;
+}
+
+.t-5x{
+    font-size: 5em;
+}
+
+.derecha{
+    text-align: right;
+}
