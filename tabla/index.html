@@ -1,0 +1,98 @@
+<style>
+    table{
+        /* border-bottom: 1 solid #000000; */
+        border: 1px solid #000;
+        width: 100%;
+        text-align: left;
+    }
+    td, th {
+        width: 50%;
+    }
+    img {
+        position: absolute;
+        max-height: 100px;
+    }
+    textarea{
+        border: none;
+        font-size: 0.8em;
+        min-height: 4em;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Firmas del contrato: ' . $contract->name . '</th>
+        </tr>
+    </thead>
+</table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre: </strong>' . $signature->user->name . '</td>
+            <td><img src="./firma1619399079.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><strong>Nombre legal: </strong>' . $signature->legalName . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Correo: </strong>' . $signature->user->email . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>RFC: </strong>' . $signature->rfc . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>No. de Serie SCD: </strong>' . $signature->serialNumber . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Firma Digital: </strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+            <td><textarea class="form-control" placeholder="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum maiores laborum cumque quas quibusdam nam totam debitis. Magnam delectus aperiam voluptatem maxime eligendi facilis asperiores excepturi consectetur dicta id?</textarea></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Nombre: </strong>' . $signature->user->name . '</td>
+            <td><img src="firma1619399079.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><strong>Nombre legal: </strong>' . $signature->legalName . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Correo: </strong>' . $signature->user->email . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>RFC: </strong>' . $signature->rfc . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>No. de Serie SCD: </strong>' . $signature->serialNumber . '</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Firma Digital: </strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+            <td><textarea class="form-control" placeholder="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum maiores laborum cumque quas quibusdam nam totam debitis. Magnam delectus aperiam voluptatem maxime eligendi facilis asperiores excepturi consectetur dicta id?</textarea></td>
+        </tr>
+    </tbody>
+</table>
