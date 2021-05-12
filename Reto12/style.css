@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: blueviolet;
+    }   
+}
+
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: brown;
+    }   
+}
